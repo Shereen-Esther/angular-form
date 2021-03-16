@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="nav">
+        <div class="nav-content1">
+            <img class="nav-list-logo" src="assets/PicsArt_01-20-11.19.43.png">
+            <div class="vertical-line"></div>
+            <p class="boarding">Boarding</p>
+        </div>
+        <div class="nav-content2">
+            <div class="flex-box">
+                <div class="box"></div><li class="nav-list">Register</li>
+            </div>
+            <div class="vertical-line2"></div>
+            <div class="flex-box">
+                <div class="box"></div><li class="nav-list">Contact Information</li>
+            </div>
+            <div class="vertical-line2"></div>
+            <div class="flex-box">
+                <div class="box"></div><li class="nav-list">Company Information</li>
+            </div>
+            <div class="vertical-line2"></div>
+            <div class="flex-box">
+                <div class="box"></div><li class="nav-list">Done</li>
+            </div>
+        </div>
+    </div>
+    <div class="mainblock">
+            <h1><b>Contact Information</b></h1>
+            <p>A bit information of who you are and how we can get in touch if needed</p>
+            <form [formGroup]="contactInformation" >
+                <div class="subdiv">
+                    <div class="first-half">
+                        <p>First Name</p>
+                        <i class="fas fa-user"></i>
+                        <input type="text" class="small-textbox" placeholder="Enter your first name" formControlName="first_name">                   
+                    </div>
+                    <div class="second-half">
+                        <p>Last Name</p> 
+                        <i class="fas fa-user"></i>
+                        <input type="text" class="small-textbox2" placeholder="Enter your last name" formControlName="last_name">
+                    </div>
+                </div>
+                <p>Phone Number</p> 
+                <i class="fas fa-phone-alt"></i>
+                <input type="text" class="textbox" placeholder="Enter your phone number" formControlName="ph_num">
+                <p>Email Address</p> 
+                <i class="fas fa-at"></i>
+                <input type="text" class="textbox" placeholder="Enter your email address" formControlName="email">
+                <p>Password</p> 
+                <i class="fas fa-lock-alt"></i>
+                <input type="password" class="textbox" placeholder="Enter your password" formControlName="password">
+                <p>Repeat your password</p> 
+                <i class="fas fa-lock-alt"></i>
+                <input type="password" class="textbox" placeholder="Repeat your password" formControlName="confirm_password"><br>
+                <button type="submit" class="submit-button">Continue to company information
+                    <i class="fas fa-arrow-right i1"></i>
+                </button>
+            </form>
+    </div>
+</div>

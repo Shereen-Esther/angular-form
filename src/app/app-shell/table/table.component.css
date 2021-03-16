@@ -1,0 +1,83 @@
+.container {
+    height: 90vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.main-block {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+}
+td,th {
+    border: 50px solid;
+    border-bottom: 24px solid;
+    border-top: 24px solid;
+    text-align: left;
+    border-color: rgba(255, 255, 255, 0);
+    /* border-color: black; */
+}
+th {
+    color: rgb(139, 181, 194);
+}
+.border {
+    border-left: 0rem;
+    border-right: 0rem;
+}
+table {
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    border-radius: 16px;
+}
+.hline {
+    width: 615%;
+    height: 1px;
+    background-color:rgba(128, 128, 128, 0.308);
+}
+i {
+    position: absolute;
+    float: left;
+    font-size: 15px; 
+    color: #75868D; 
+    margin-left: -1.5%;
+}
+
+.green {
+    color: rgb(22, 224, 157);
+    font-weight: 700;
+}
+.yellow {
+    color: rgb(250, 222, 132);
+    font-weight: 700;
+}
+.red {
+    color: tomato;
+    font-weight: 700;
+}
+.orange {
+    color: orange;
+    font-weight: 700;
+}
+.gray {
+    color: rgba(128, 128, 128, 0.63);
+}
+.outer{
+    background-color: rgba(22, 224, 157, 0.192);
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 2rem;
+}
+.outer-yellow {
+    background-color: rgba(250, 222, 132, 0.253);
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 2rem;
+    /* padding-right: 0rem; */
+    margin-right: 2rem;
+}
+.outer-orange {
+    background-color: rgba(255, 166, 0, 0.151);
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 2rem;
+}
